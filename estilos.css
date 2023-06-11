@@ -358,6 +358,20 @@ main {
         padding: 100px 30px;
     }
 
+    .header-content h1{
+        font-size: 30px;
+    }
+    
+    .header-content p{
+        padding: 0;
+        font-size: 12px;
+    }
+    
+    .fa-solid {
+        font-size: 20px;
+    }
+        
+
     .colecciones{
         padding: 0;
     }
