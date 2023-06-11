@@ -77,7 +77,7 @@ body {
 }
 
 .header-content h1{
-    font-size: 75px;
+    font-size: 4rem;
     line-height: 50px;
     color: #f9fafc;
     text-transform:uppercase;
@@ -86,7 +86,7 @@ body {
 }
 
 .header-content p{
-    font-size: 20px;
+    font-size: 2rem;
     color: #C5C5C5;
     padding: 0 100px;
     margin: 10px;
@@ -138,7 +138,7 @@ text-aligne center*/
 }
 
 .Mykono-content h2 {
-    font-size: 35px;
+    font-size: 2rem;
     line-height: 70px;
     color: #282828;
     text-transform: uppercase;
@@ -147,7 +147,7 @@ text-aligne center*/
 }
 
 .txt-p{
-    font-size: 15px;
+    font-size: 1rem;
     color: #383838;
     padding: 0 25px;
     margin-bottom: 30px;
@@ -161,7 +161,7 @@ text-aligne center*/
 }
 .Mykono-1 h3{
     color: #282828;
-    font-size: 20px;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 
@@ -178,7 +178,18 @@ main {
     grid-column: 1/-1;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 20px;
+}
+
+.productos-content h2{
+    color:#282828;
+    font-size: 2rem;
+}
+
+.productos-content h1{
+     color:#282828;
+    font-size: 2.5rem;
 }
 
 .Productos-group{
@@ -200,7 +211,7 @@ main {
 }
 
 .productos-1 h6{
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .prod-img {
@@ -216,8 +227,7 @@ main {
 
 .Box-Happy{
     display: grid;
-    /* grid-template-columns: repeat(3,1fr); */
-    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+    grid-template-columns: repeat(3,1fr);
     gap: 15px;
     background-color: rbga(197,186,169,0.8);
     justify-content: center;
@@ -252,7 +262,7 @@ main {
 }
 
 [class^="fa-solid"]{
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
     color:#21D4D8;
 }
@@ -263,7 +273,7 @@ main {
 
 .footer {
     background-color:#c5baa9;
-    padding: 100px 0px;
+    padding: 50px 30px;
 }
 
 .footer-content {
@@ -272,22 +282,22 @@ main {
 }
 
 .link h3{
-    font-size: 18px;
+    font-size: 1rem;
     color:#383838;
     margin-bottom: 15px;
 }
 
 .footer img{
-    width: 150px;
-    height: 50px;
+    width: 9rem;
+    height: 3rem;
 }
 
 .footer p{
-    font-size: 10px;
+    font-size: 0.5rem;
 }
 
 .link a{
-    font-size: 16px;
+    font-size: 0.8rem;
     color:#383838;
     display: block;
     margin-bottom: 10px;
@@ -296,7 +306,16 @@ main {
 .btn-regis{
     margin-top: 10px;
     display: inline-block;
-    }
+}
+
+.col-md-12 label{
+    font-size: 0.8rem;
+}
+
+.col-md-12 input{
+        padding: 5px;
+}
+        
 
 @media (max-width:991px) {
     .menu {
@@ -373,18 +392,22 @@ main {
     .Box-Happy{
         padding: 10px;
     }
-/* esto no debería pasar */
-    /* .Box-1{ */
-        /* grid-column: 1/-1; */
-        /* display: flex; */
-        
-    /* } */
-    /* .Box-Nro{ */
-        /* text-align: center; */
-    /* } */
+
+    .Box-1{
+        grid-column: 1/-1;
+        display: flex;
+    }
+
+    .Box-Nro{
+        text-align: center;
+    }
 
     .footer{
         padding: 20px;
+    }
+    
+    .Footer-1{
+        text-align: center;
     }
 
     .footer-content{
@@ -392,13 +415,14 @@ main {
     }
     .footer-content a{
         margin: 5px;
-        font-size: 12px;
+
     }
     .footer-content h3{
         margin-left: 5px;
         margin-bottom: 5px;
         margin-top: 10px;
     }
+
 
 }
 
